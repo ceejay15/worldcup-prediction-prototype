@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/worldcup-prediction-prototype'),
+      dir: require('path').join(__dirname, './coverage/prototype-app'),
       subdir: '.',
       reporters: [
         { type: 'html' },
